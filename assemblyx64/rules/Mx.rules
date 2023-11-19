@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Mx64"
+	Version="8,00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="Mx64"
+			DisplayName="Mx64"
+			CommandLine="ml64.exe /c /Fo &quot;$(IntDir)\$(InputFileName).obj&quot; /Zi &quot;$(InputPath)&quot;"
+			Outputs="&quot;$(IntDir)\$(InputFileName).obj&quot;"
+			FileExtensions="*.asm"
+			ShowOnlyRuleProperties="false"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>
