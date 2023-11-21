@@ -95,8 +95,8 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
-				CommandLine="ml64.exe / DWIN_X64 /Zi /c /Cp /Fl /Fo $(IntDir)\$(InputName.obj $(InputName).asm&#x0D;&#x0A;"
-				Outputs="$(IntDir)\$(InputName).obj"
+				Description=""
+				CommandLine="ml64.exe /DWIN_X64 /Zi /c /Cp /Fl /Fo $(IntDir)\$(InputName).obj&#x0D;&#x0A;"
 			/>
 			<Tool
 				Name="Mx64"
@@ -291,14 +291,6 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\CaixaD.asm"
-				>
-			</File>
-			<File
-				RelativePath=".\CombineA.asm"
-				>
-			</File>
 			<File
 				RelativePath=".\main.cpp"
 				>

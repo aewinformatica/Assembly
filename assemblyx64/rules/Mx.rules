@@ -10,6 +10,7 @@
 			CommandLine="ml64.exe /c /Fo &quot;$(IntDir)\$(InputFileName).obj&quot; /Zi &quot;$(InputPath)&quot;"
 			Outputs="&quot;$(IntDir)\$(InputFileName).obj&quot;"
 			FileExtensions="*.asm"
+			ExecutionDescription="Assembling Mx64 Code..."
 			ShowOnlyRuleProperties="false"
 			>
 			<Properties>

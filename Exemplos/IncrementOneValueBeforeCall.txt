@@ -2,11 +2,11 @@
 valor DWORD 1
 
 .CODE
-PUBLIC testeASM
+PUBLIC incrementASM
 
-testeASM PROC
+incrementASM PROC
 	mov eax , valor
 	inc DWORD PTR valor 
 	ret
-testeASM ENDP
+incrementASM ENDP
 END
